@@ -2,6 +2,9 @@
 
 A console-based ChatGPT clone with a nostalgic terminal interface — fast, minimalist, and privacy-first. Supports OpenAI and Gemini with custom prompts, themes, and local history.
 
+### Upvote us🫡
+<a href="https://www.producthunt.com/products/consolegpt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-consolegpt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=978133&theme=light&t=1749843616476" alt="ConsoleGPT - A&#0032;terminal&#0045;based&#0032;ChatGPT&#0032;clone&#0032;with&#0032;a&#0032;nostalgic&#0032;interface&#0046; | Product Hunt" style="width: 200px; height: 54px;" width="250" height="54" /></a>
+
 ![Matrix Green](public/matrix.png)
 
 ## ✨ Features
