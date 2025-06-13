@@ -37,7 +37,7 @@ export async function POST(req: Request) {
       const genAI = new GoogleGenerativeAI(apiKey)
 
       // Use the specified model or default to gemini-1.0-pro
-      const modelName = model || "gemini-1.0-pro"
+      const modelName = model || "gemini-2.0-flash"
       const geminiModel = genAI.getGenerativeModel({ model: modelName })
 
       // Get the last message (which should be the user's input)

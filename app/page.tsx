@@ -1289,7 +1289,7 @@ export default function ConsoleChatbot() {
       >
         {displayMessages.length === 0 ? (
           <div style={{ color: "var(--foreground)", opacity: 0.7 }} className="mb-4">
-            <p>// Console ChatGPT v1.0.0</p>
+            <p>// ConsoleGPT v1.0.0</p>
             <p>// Type your message and press Enter</p>
             <p>// Type / to see available commands</p>
             <p>// Try /help to see all commands</p>
