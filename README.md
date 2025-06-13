@@ -16,7 +16,7 @@ A console-based ChatGPT clone with a nostalgic terminal interface — fast, mini
 - 📜 **Local History** — Conversations saved in browser's localStorage
 - 🔒 **Privacy-First** — No account, no cloud, no tracking
 - ⌨️ **Keyboard-Friendly** — Type fast, live like a hacker
-- 🧩 **Slash Commands** — `/help`, `/clear`, `/theme`, `/reset`, and more
+- 🧩 **Slash Commands** — `/help`, `/clear`, `/theme`
 
 
 
@@ -58,9 +58,8 @@ Here are some basic instructions:
 | `/help`         | Show all available commands                 |
 | `/theme <name>` | Change the theme (e.g., `matrix`, `amber`) |
 | `/clear`        | Clear the current chat session              |
-| `/reset`        | Reset API key, prompt, and history          |
-| `/prompt`       | Change the system prompt                    |
 
+more will added soon.
 ---
 
 ## 🎨 Available Themes
