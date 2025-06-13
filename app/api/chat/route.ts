@@ -22,7 +22,7 @@ export async function POST(req: Request) {
 
     const modelName = model || "gpt-3.5-turbo"
     const defaultSystemPrompt =
-      "You are a helpful AI assistant in a terminal-based chat. Reply concisely using markdown where useful."
+      "You are a helpful AI assistant in a console-based chat application named ConsoleGPT. Provide concise, helpful responses. You can use simple markdown formatting like **bold** and *italic* when appropriate."
 
     // Build OpenAI messages format
     const chatMessages = []

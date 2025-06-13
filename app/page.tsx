@@ -32,7 +32,7 @@ export type OpenAIModelType = keyof typeof openaiModels
 
 // Default system prompt
 const DEFAULT_SYSTEM_PROMPT =
-  "You are a helpful AI assistant in a console-based chat application. Provide concise, helpful responses. You can use simple markdown formatting like **bold** and *italic* when appropriate."
+  "You are a helpful AI assistant in a console-based chat application named ConsoleGPT. Provide concise, helpful responses. You can use simple markdown formatting like **bold** and *italic* when appropriate."
 
 export default function ConsoleChatbot() {
   const messagesEndRef = useRef<HTMLDivElement>(null)
