@@ -1,7 +1,7 @@
 import type React from "react";
 import "./globals.css";
 import type { Metadata } from "next";
-
+import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   title: "ConsoleGPT",
   description: "A console-based ChatGPT clone with a minimalist interface",
@@ -17,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

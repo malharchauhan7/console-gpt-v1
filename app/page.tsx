@@ -56,9 +56,9 @@ export default function ConsoleChatbot() {
 
   // Add model selection state
   const [openaiModel, setOpenaiModel] = useState<OpenAIModelType>("gpt-3.5-turbo")
-  const [geminiModel, setGeminiModel] = useState<GeminiModelType>("gemini-1.0-pro")
+  const [geminiModel, setGeminiModel] = useState<GeminiModelType>("gemini-2.0-flash")
   const [savedOpenaiModel, setSavedOpenaiModel] = useState<OpenAIModelType>("gpt-3.5-turbo")
-  const [savedGeminiModel, setSavedGeminiModel] = useState<GeminiModelType>("gemini-1.0-pro")
+  const [savedGeminiModel, setSavedGeminiModel] = useState<GeminiModelType>("gemini-2.0-flash")
 
   // Custom state for messages when using Gemini
   const [geminiMessages, setGeminiMessages] = useState<Message[]>([])
@@ -1289,7 +1289,17 @@ export default function ConsoleChatbot() {
       >
         {displayMessages.length === 0 ? (
           <div style={{ color: "var(--foreground)", opacity: 0.7 }} className="mb-4">
-            <p>// ConsoleGPT v1.0.0</p>
+      <pre className="whitespace-pre leading-tight mb-2">
+{`
+   ____                      _       ____ ____ _____ 
+  / ___|___  _ __  ___  ___ | | ___ / ___|  _ \\_   _|
+ | |   / _ \\| '_ \\/ __|/ _ \\| |/ _ \\ |  _| |_) || |  
+ | |__| (_) | | | \\__ \\ (_) | |  __/ |_| |  __/ | |  
+  \\____\\___/|_| |_|___/\\___/|_|\\___|\\____|_|    |_|  
+
+               ConsoleGPT v1.0.0
+`}
+      </pre>
             <p>// Type your message and press Enter</p>
             <p>// Type / to see available commands</p>
             <p>// Try /help to see all commands</p>
